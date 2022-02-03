@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fbEventSample", "fbEventSample\fbEventSample.csproj", "{709E121D-3C99-42BD-82C6-8855A52AE377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Debug|iPhone.Build.0 = Debug|iPhone
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Release|iPhone.ActiveCfg = Release|iPhone
+		{709E121D-3C99-42BD-82C6-8855A52AE377}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8233310A-F359-4B55-994B-E03DF0F5C396}
+	EndGlobalSection
+EndGlobal
