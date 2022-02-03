@@ -30,12 +30,14 @@ namespace fbEventSample
 
         partial void ClickButton_2(NSObject sender)
         {
-
+            var key = new NSString("value");
+            var number = new NSNumber(213);
+            PushEvent("Click 2", new NSDictionary<NSString, NSObject>(key, number));
         }
 
         partial void ClickButton_3(NSObject sender)
         {
-
+            PushEvent("Click 3", new NSDictionary<NSString, NSObject>());
         }
 
         private void PushEvent(string eventName, NSDictionary<NSString, NSObject> value)

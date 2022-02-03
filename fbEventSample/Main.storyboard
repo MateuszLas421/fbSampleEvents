@@ -19,27 +19,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKl-Wp-dJk">
-                                <rect key="frame" x="151" y="344" width="113" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKl-Wp-dJk">
+                                <rect key="frame" x="150.5" y="94" width="113" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Button 1"/>
                                 <connections>
                                     <action selector="ClickButton_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1U-LT-B7Z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D87-Cg-7Zb">
-                                <rect key="frame" x="150" y="419" width="115" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D87-Cg-7Zb">
+                                <rect key="frame" x="149.5" y="137" width="115" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Button 2"/>
                                 <connections>
                                     <action selector="ClickButton_2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vy0-MY-lHq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDY-qt-I61">
-                                <rect key="frame" x="150" y="501" width="115" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDY-qt-I61">
+                                <rect key="frame" x="149.5" y="183" width="115" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Button 3"/>
                                 <connections>
@@ -48,6 +45,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cKl-Wp-dJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F4o-3X-UvR"/>
+                            <constraint firstItem="cKl-Wp-dJk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="XZb-QT-NyZ"/>
+                            <constraint firstItem="D87-Cg-7Zb" firstAttribute="top" secondItem="cKl-Wp-dJk" secondAttribute="bottom" constant="12" id="bnR-zp-KTR"/>
+                            <constraint firstItem="D87-Cg-7Zb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nMS-6h-hpb"/>
+                            <constraint firstItem="BDY-qt-I61" firstAttribute="top" secondItem="D87-Cg-7Zb" secondAttribute="bottom" constant="15" id="nzs-Jv-Cv2"/>
+                            <constraint firstItem="BDY-qt-I61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pfC-zM-F9e"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

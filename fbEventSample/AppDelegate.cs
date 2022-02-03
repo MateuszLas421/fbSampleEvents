@@ -44,8 +44,8 @@ namespace fbEventSample
 
         public override void OnActivated(UIApplication application)
         {
-            Settings.AppId = "";
-            Settings.DisplayName = "";
+            Settings.AppId = "893904987903240";
+            Settings.DisplayName = "testapp";
             if (UIDevice.CurrentDevice.CheckSystemVersion(14, 0))
             {
                 ATTrackingManager.RequestTrackingAuthorization((result) =>
