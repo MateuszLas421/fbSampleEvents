@@ -64,6 +64,8 @@ namespace fbEventSample
                             break;
                     }
                     ApplicationDelegate.SharedInstance.InitializeSdk();
+                    Settings.EnableLoggingBehavior(LoggingBehavior.AppEvents);
+                    AppEvents.Shared.ActivateApp();
                 });
             }
             else
@@ -72,9 +74,10 @@ namespace fbEventSample
                 Settings.AutoLogAppEventsEnabled = true;
                 Settings.AdvertiserTrackingEnabled = true;
                 ApplicationDelegate.SharedInstance.InitializeSdk();
+                Settings.EnableLoggingBehavior(LoggingBehavior.AppEvents);
+                AppEvents.Shared.ActivateApp();
             }
-            Settings.EnableLoggingBehavior(LoggingBehavior.AppEvents);
-            AppEvents.Shared.ActivateApp();
+
         }
 
         public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
