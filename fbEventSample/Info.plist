@@ -89,21 +89,21 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb893904987903240</string>
+				<string>fb[FB-APPID]</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>893904987903240</string>
+	<string>[FB-APPID]</string>
 	<key>FacebookClientToken</key>
-	<string>076e21113dfeea83136e85af79a87eca</string>
+	<string>[FB-Token]</string>
 	<key>FacebookDisplayName</key>
-	<string>testapp</string>
+	<string>[[DisplayName]]</string>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
 	<true/>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<true/>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>App would like to access IDFA for tracking purpose</string>
+	<string>Tracking Description Sample</string>
 </dict>
 </plist>
